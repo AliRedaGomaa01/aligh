@@ -92,7 +92,7 @@
             <p class="<?= $contentStyles ?> ">
                 <?= $isEn ?
                 'In my CV , You can get my ( Main info – Contact Info – Experience – Technical Skills – Projects – Web Development Courses - Expected Salary).' 
-                : 'يمكنك الوصول للمزيد من المعلومات في سيرتي الذاتية ستجد ( المعلومات الأساسية عني - معلومات التواصل - خبرة العمل - مهاراتي التقنية - مشاريعي - الكورسات التي درستها - الراتب المتوقع).' 
+                : 'في سيرتي الذاتية ستجد ( المعلومات الأساسية عني - معلومات التواصل - خبرة العمل - مهاراتي التقنية - مشاريعي - الكورسات التي درستها - الراتب المتوقع).' 
                 ?>
             </p>
             <p class="<?= $contentStyles ?> text-main">
