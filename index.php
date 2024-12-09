@@ -87,13 +87,13 @@ $contentStyles = "text-justify";
             <p class="<?= $contentStyles ?> ">
                 <?= $isEn ?
                     'I am Ali Hussein from Egypt. <br> I work as a full-stack web and mobile app developer.'
-                    : 'أنا علي حسين من مصر.<br> أعمل كمطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب وتطبيقات الموبايل. .'
+                    : 'أنا علي حسين من مصر.<br> أعمل كمطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب وتطبيقات الموبايل.'
                     ?>
             </p>
             <p class="<?= $contentStyles ?> text-main">
                 <?= $isEn ?
                     'I obtained Bachelor\'s degree in Communications & Electronics Engineering in 2021.<br> I also obtained certificates of many programming & software development courses. (+1000 hours of courses).'
-                    : 'حصلت على درجة البكالوريوس في هندسة الاتصالات والإلكترونيات  في عام 2021.<br> كما حصلت على شهادات الكثير من كورسات البرمجة وتطوير السوفتوير.  ( +1000 ساعة من الكورسات )'
+                    : 'حصلت على درجة البكالوريوس في هندسة الاتصالات والإلكترونيات  في عام 2021.<br> كما حصلت على شهادات الكثير من كورسات البرمجة وتطوير السوفتوير. ( +1000 ساعة من الكورسات ).'
                     ?>
             </p>
             <p class="<?= $contentStyles ?> ">
