@@ -23,7 +23,7 @@
                     sans: "Times New Roman",
                 },
                 colors: {
-                    main: '#000088',
+                    main: '#000000',
                 }
             }
         }
@@ -108,6 +108,12 @@
                         ?>
                 </a>.
             </p>
+            <h1 class="text-center text-main text-2xl p-5">
+                <?= $isEn ? 
+                'Thanks For Your Time' : 
+                'شكرا لك على وقتك' 
+                ?>
+            </h1>
         </div>
     </main>
     <!-- Footer -->
