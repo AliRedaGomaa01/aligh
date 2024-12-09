@@ -1,4 +1,4 @@
-# aligh
+# Ali Hussein Website
 
 This project is my website that I ( Ali Hussein )  made using ( HTML , CSS , PHP , Tailwind ).
 
