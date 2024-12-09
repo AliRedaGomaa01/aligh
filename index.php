@@ -79,26 +79,26 @@
             </h1>
             <p class="<?= $contentStyles ?> ">
                 <?= $isEn ?
-                'I am Ali Gomaa Hussein from Egypt. I work as a full-stack web developer.' 
-                : 'أنا علي جمعة حسين من مصر. أعمل كمطور كامل للويب للواجهات الأمامية والخلفية.' 
+                'I am Ali Gomaa Hussein from Egypt. I work as a full-stack web and mobile app developer.' 
+                : 'أنا علي جمعة حسين من مصر. أعمل كمطور كامل لو للواجهات الأمامية والخلفية لتطبيقات الويب وتطبيقات الموبايل.' 
                 ?>
             </p>
             <p class="<?= $contentStyles ?> text-main">
                 <?= $isEn ?
-                'I obtained Bachelor\'s degree in Communications & Electronics Engineering in 2021. I also obtained certificates of many web development courses.' 
-                : 'حصلت على درجة البكالوريوس في هندسة الاتصالات والإلكترونيات  في عام 2021. كما حصلت على شهادات الكثير من كورسات تطوير الويب.' 
+                'I obtained Bachelor\'s degree in Communications & Electronics Engineering in 2021. I also obtained certificates of many programming & software development courses.' 
+                : 'حصلت على درجة البكالوريوس في هندسة الاتصالات والإلكترونيات  في عام 2021. كما حصلت على شهادات الكثير من كورسات البرمجة وتطوير السوفتوير.' 
                 ?>
             </p>
             <p class="<?= $contentStyles ?> ">
                 <?= $isEn ?
-                'In my CV , You can get my ( Main info – Contact Info – Experience – Technical Skills – Projects – Web Development Courses - Expected Salary).' 
-                : 'في سيرتي الذاتية ستجد ( المعلومات الأساسية عني - معلومات التواصل - خبرة العمل - مهاراتي التقنية - مشاريعي - الكورسات التي درستها - الراتب المتوقع).' 
+                'In my CV , You can get my ( Basics & Contact Info – Experience – Technical Skills – Projects – Web Development Courses - Expected Salary).' 
+                : 'في سيرتي الذاتية ستجد ( المعلومات الأساسية عني ومعلومات التواصل - خبرة العمل - مهاراتي التقنية - مشاريعي - الكورسات التي درستها - الراتب المتوقع).' 
                 ?>
             </p>
             <p class="<?= $contentStyles ?> text-main">
                 <?= $isEn ?
-                    'You can get my ( Updated CV – Certificates – Photos - More Courses & Projects ) & More using the next link :' 
-                    : 'يمكنك الوصول لـ ( السيرة الذاتية الأحدث - شهاداتي - صوري - مزيد من الكورسات والمشاريع ) والمزيد باستخدام الرابط التالي :  ' 
+                    'You can get my ( Updated CV – Certificates ) & More using the next link :' 
+                    : 'يمكنك الوصول لـ ( السيرة الذاتية الأحدث - شهاداتي ) والمزيد باستخدام الرابط التالي :  ' 
                     ?>
                 <a href="https://drive.google.com/drive/u/0/folders/14OHQjPXWy4fpqx-qvVO9KVZcPWDCQHkm"
                     class="text-blue-500 underline" target="_blank">
@@ -120,13 +120,12 @@
     <footer class=" grid items-end ">
         <div class="bg-main w-full grid it-ce text-white  shadow-[0px_-3px_3px_0px_rgb(0,0,0,0.5)] text-center py-5">
             <?= $isEn ? "Designed & Developed & Deployed By"  : "تم تصميمه وتطويره واستضافته بواسطة"?>
-            <br class="grid sm:hidden">
-            <?= $isEn ? "Ali Hussein"  : "علي حسين"?>
+            <br class="sm:hidden">
+            <a href="http://aly-h.com" target="_blank" rel="noopener noreferrer"><?= $isEn ? "Ali Hussein"  : "علي حسين"?></a>
             &copy;
             <script>
             document.write(new Date(Date.now()).getFullYear());
             </script>
-
         </div>
     </footer>
 </body>
