@@ -4,6 +4,6 @@ This project is my website that I ( Ali Hussein )  made using ( HTML , CSS , PHP
 
 It has been designed & developed and deployed by me.
 
-It's hosted on the next url <a href="https://aligh.net"> https://aligh.net </a>
+It's hosted on the next url <a href="https://aly-h.com"> https://aly-h.com </a>
 
 Don't hesitate to contact me anytime.
