@@ -148,7 +148,7 @@
             "
             ?>
         </h2>
-        <ul class="list-disc pl-6 text-lg leading-7">
+        <ul class="list-disc px-6 text-lg leading-7">
           <?= $isEn ?
             "
           <li>Basics & Contact Information</li>
