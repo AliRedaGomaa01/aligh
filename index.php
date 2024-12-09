@@ -79,8 +79,8 @@
             </h1>
             <p class="<?= $contentStyles ?> ">
                 <?= $isEn ?
-                'I am Ali Gomaa Hussein from Egypt. I work as a full-stack web and mobile app developer.' 
-                : 'أنا علي جمعة حسين من مصر. أعمل كمطور كامل لو للواجهات الأمامية والخلفية لتطبيقات الويب وتطبيقات الموبايل.' 
+                'I am Ali Gomaa Hussein from Egypt. I work as a full-stack web and mobile app developer. (+1000 hours of courses).' 
+                : 'أنا علي جمعة حسين من مصر. أعمل كمطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب وتطبيقات الموبايل ( +1000 ساعة من الكورسات ) .' 
                 ?>
             </p>
             <p class="<?= $contentStyles ?> text-main">
@@ -91,8 +91,8 @@
             </p>
             <p class="<?= $contentStyles ?> ">
                 <?= $isEn ?
-                'In my CV , You can get my ( Basics & Contact Info – Experience – Technical Skills – Projects – Web Development Courses - Expected Salary).' 
-                : 'في سيرتي الذاتية ستجد ( المعلومات الأساسية عني ومعلومات التواصل - خبرة العمل - مهاراتي التقنية - مشاريعي - الكورسات التي درستها - الراتب المتوقع).' 
+                'In my CV , You can get my ( Basics & Contact Info – Experience – Technical Skills – Projects – Learning & Courses - Expected Salary).' 
+                : 'في سيرتي الذاتية ستجد ( المعلومات الأساسية عني ومعلومات التواصل - خبرة العمل - مهاراتي التقنية - مشاريعي - الكورسات والتعلم - الراتب المتوقع).' 
                 ?>
             </p>
             <p class="<?= $contentStyles ?> text-main">
@@ -120,7 +120,7 @@
     <footer class=" grid items-end ">
         <div class="bg-main w-full grid it-ce text-white  shadow-[0px_-3px_3px_0px_rgb(0,0,0,0.5)] text-center py-5">
             <?= $isEn ? "Designed & Developed & Deployed By"  : "تم تصميمه وتطويره واستضافته بواسطة"?>
-            <br class="sm:hidden">
+            <br class="grid sm:hidden">
             <a href="http://aly-h.com" target="_blank" rel="noopener noreferrer"><?= $isEn ? "Ali Hussein"  : "علي حسين"?></a>
             &copy;
             <script>
