@@ -86,14 +86,14 @@ $contentStyles = "text-justify";
             </h1>
             <p class="<?= $contentStyles ?> ">
                 <?= $isEn ?
-                    'I am Ali Hussein from Egypt. I work as a full-stack web and mobile app developer. (+1000 hours of courses).'
-                    : 'أنا علي حسين من مصر. أعمل كمطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب وتطبيقات الموبايل ( +1000 ساعة من الكورسات ) .'
+                    'I am Ali Hussein from Egypt. <br> I work as a full-stack web and mobile app developer.'
+                    : 'أنا علي حسين من مصر.<br> أعمل كمطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب وتطبيقات الموبايل. .'
                     ?>
             </p>
             <p class="<?= $contentStyles ?> text-main">
                 <?= $isEn ?
-                    'I obtained Bachelor\'s degree in Communications & Electronics Engineering in 2021. I also obtained certificates of many programming & software development courses.'
-                    : 'حصلت على درجة البكالوريوس في هندسة الاتصالات والإلكترونيات  في عام 2021. كما حصلت على شهادات الكثير من كورسات البرمجة وتطوير السوفتوير.'
+                    'I obtained Bachelor\'s degree in Communications & Electronics Engineering in 2021.<br> I also obtained certificates of many programming & software development courses. (+1000 hours of courses).'
+                    : 'حصلت على درجة البكالوريوس في هندسة الاتصالات والإلكترونيات  في عام 2021.<br> كما حصلت على شهادات الكثير من كورسات البرمجة وتطوير السوفتوير.  ( +1000 ساعة من الكورسات )'
                     ?>
             </p>
             <p class="<?= $contentStyles ?> ">
@@ -107,6 +107,7 @@ $contentStyles = "text-justify";
                     'You can get my ( Updated CV – Certificates ) & More using the next link :'
                     : 'يمكنك الوصول لـ ( السيرة الذاتية الأحدث - شهاداتي ) والمزيد باستخدام الرابط التالي :  '
                     ?>
+                <br>
                 <a href="https://drive.google.com/drive/u/0/folders/14OHQjPXWy4fpqx-qvVO9KVZcPWDCQHkm"
                     class="text-blue-500 underline" target="_blank">
                     <?= $isEn ?
@@ -129,8 +130,7 @@ $contentStyles = "text-justify";
             <p class="text-center">
                 <?= $isEn ? "Designed & Developed & Deployed By" : "تم تصميمه وتطويره واستضافته بواسطة" ?>
                 <br class="grid sm:hidden">
-                <a href="http://aly-h.com" target="_blank"
-                    class="text-blue-200 font-black italic"><?= $isEn ? "Ali Hussein" : "علي حسين" ?></a>
+                <?= $isEn ? "Ali Hussein" : "علي حسين" ?>
                 &copy;
                 <script>
                     document.write(new Date(Date.now()).getFullYear());
