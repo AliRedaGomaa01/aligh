@@ -1,9 +1,8 @@
 <!-- request variables -->
 <?php
-$lang = $_GET['lang'] ?? 'en';
-$lang = in_array($lang, ['en', 'ar']) ? $lang : 'en';
-$isEn = $lang == 'en';
-$contentStyles = "text-justify";
+  $lang = $_GET['lang'] ?? 'en';
+  $lang = in_array($lang, ['en', 'ar']) ? $lang : 'en';
+  $isEn = $lang == 'en';
 ?>
 <!DOCTYPE html>
 <html lang="<?= $isEn ? 'en' : 'ar' ?>" dir="<?= $isEn ? 'ltr' : 'rtl' ?>">
@@ -59,6 +58,7 @@ $contentStyles = "text-justify";
 <body class="min-w-full  min-h-screen flex flex-col items-between gap-[5rem] font-sans text-xl">
   <!-- Header -->
   <header class="">
+    
     <div class="bg-main w-full text-white grid grid-cols-1 it-ce shadow-[0px_3px_3px_0px_rgb(0,0,0,0.5)]" dir="rtl">
       <div class="grid it-ce h-[120px] w-[200px]">
         <img src="images/logoEn.png" class="h-[100%] w-[100%] <?= $isEn ? '' : 'hidden' ?>" alt="Logo">
@@ -75,125 +75,170 @@ $contentStyles = "text-justify";
           class="  hover:active px-5 py-2 rounded-xl <?= $isEn ? 'active' : 'not-active' ?> ">English</a>
       </div>
     </div>
+
   </header>
+
   <!-- Main -->
   <main class="container mx-auto ">
+    
     <section
-      class="grid grid-cols-1 gap-10 mx-auto shadow-[-3px_-3px_3px_0px_rgb(0,0,0,0.5),3px_3px_3px_0px_rgb(0,0,0,0.5)] p-10 leading-8 rounded-xl max-w-[800px]  <?= $isEn ? '' : 'hidden' ?>">
-      <section class="bg-main text-white py-6">
-        <div class="container mx-auto px-4">
-          <h1 class="text-3xl font-bold text-center">Ali Hussein – Full-Stack Developer</h1>
-        </div>
+      class="grid grid-cols-1 gap-10 mx-auto shadow-[-3px_-3px_3px_0px_rgb(0,0,0,0.5),3px_3px_3px_0px_rgb(0,0,0,0.5)] p-10 leading-8 rounded-xl max-w-[800px] ">
+
+      <section class="container bg-main text-white py-6  px-4 mx-auto rounded-lg">
+          <h1 class="text-3xl font-bold text-center">
+            <?= $isEn ?
+              "
+              Ali Hussein – Full-Stack Developer
+              " :
+              "
+              علي حسين – مطور كامل للواجهات الأمامية والخلفية
+              "
+
+              ?>
+          </h1>
       </section>
+
       <section class="space-y-10">
-        <p class="">Welcome! I'm Ali Hussein from Egypt, a passionate full-stack web and mobile app
-          developer.</p>
-        <h2 class="text-2xl font-semibold ">About Me</h2>
+        <p class="">
+          <?= $isEn ?
+            "
+            Welcome! I'm Ali Hussein from Egypt, a passionate full-stack web and mobile app
+          developer.
+          " :
+            '
+            مرحبًا! أنا علي حسين من مصر، أعمل بشغف كمطور متكامل لتطبيقات الويب والموبايل.
+            '
+            ?>
+        </p>
+        <h2 class="text-2xl font-semibold ">
+          <?= $isEn ?
+            "
+            About Me
+            " :
+            '
+            نبذة عني
+            '
+            ?>
+        </h2>
         <p class="text-lg leading-7">
-          I hold a <strong>Bachelor’s degree in Communications and Electronics Engineering</strong> (2021).
-          Over
-          the
-          years, I have honed my skills through <strong>1000+ hours of programming and software development
+          <?= $isEn ?
+            "
+            I hold a <strong>Bachelor’s degree in Communications and Electronics Engineering</strong> (2021).
+          Over the years, I have honed my skills through <strong>1000+ hours of programming and software development
             courses</strong>, earning numerous certifications along the way.
+            " :
+            "
+            حصلت على <strong>درجة البكالوريوس في هندسة الاتصالات والإلكترونيات</strong> عام 2021. كما طورت
+          مهاراتي من خلال <strong>+1000 ساعة من الكورسات</strong> في البرمجة وتطوير البرمجيات، بالإضافة إلى حصولي على العديد
+          من الشهادات.
+          "
+            ?>
+
         </p>
       </section>
+
       <section class="space-y-10">
-        <h2 class="text-2xl font-semibold ">What’s in My CV?</h2>
+        <h2 class="text-2xl font-semibold ">
+          <?= $isEn ?
+            "
+            What’s in My CV?
+            " :
+            "
+            ماذا ستجد في سيرتي الذاتية؟
+            "
+            ?>
+        </h2>
         <ul class="list-disc pl-6 text-lg leading-7">
+          <?= $isEn ?
+            "
           <li>Basics & Contact Information</li>
           <li>Professional Experience</li>
           <li>Technical Skills</li>
           <li>Projects Portfolio</li>
           <li>Learning & Courses</li>
           <li>Expected Salary</li>
-        </ul>
-      </section>
-
-      <!-- Access Section -->
-      <section class="space-y-10">
-        <h2 class="text-2xl font-semibold ">Access My Updated CV</h2>
-        <p class="text-lg leading-7">
-          Get my <strong>latest CV</strong>, <strong>certificates</strong>, and more resources via the
-          following
-          link:
-        </p>
-        <a href="https://drive.google.com/drive/u/0/folders/14OHQjPXWy4fpqx-qvVO9KVZcPWDCQHkm" target="_blank"
-          class="inline-block bg-main text-white py-2 px-4 rounded-lg hover:bg-gray-700">View Files on Google
-          Drive</a>
-      </section>
-
-      <section>
-        <h1 class="text-center text-main text-2xl p-5">
-          Thanks For Your Time
-        </h1>
-      </section>
-    </section>
-
-    <!-- Arabic Section -->
-    <section
-      class="grid grid-cols-1 gap-10 mx-auto shadow-[-3px_-3px_3px_0px_rgb(0,0,0,0.5),3px_3px_3px_0px_rgb(0,0,0,0.5)] p-10 leading-8 rounded-xl max-w-[800px]  <?= $isEn ? 'hidden' : '' ?>">
-      <section class="bg-main text-white py-6">
-        <div class="container mx-auto px-4">
-          <h2 class="text-2xl font-semibold  text-center">علي حسين – مطور كامل للواجهات الأمامية والخلفية</h2>
-
-        </div>
-      </section>
-
-      <section class="space-y-10">
-        <p class="text-lg leading-7">مرحبًا! أنا علي حسين من مصر، أعمل بشغف كمطور متكامل لتطبيقات الويب
-          والموبايل.
-        </p>
-
-        <h3 class="text-xl font-semibold ">نبذة عني</h3>
-
-        <p class="text-lg leading-7">
-          حصلت على <strong>درجة البكالوريوس في هندسة الاتصالات والإلكترونيات</strong> عام 2021. كما طورت
-          مهاراتي
-          من خلال
-          <strong>+1000 ساعة من الكورسات</strong> في البرمجة وتطوير البرمجيات، بالإضافة إلى حصولي على العديد
-          من
-          الشهادات.
-        </p>
-      </section>
-
-      <section class="space-y-10">
-        <h3 class="text-xl font-semibold ">ماذا ستجد في سيرتي الذاتية؟</h3>
-        <ul class="list-disc pl-6 text-lg leading-7">
+            " :
+            "
           <li>المعلومات الأساسية ومعلومات التواصل</li>
           <li>خبرة العمل</li>
           <li>المهارات التقنية</li>
           <li>المشاريع</li>
           <li>التعلم والكورسات</li>
           <li>الراتب المتوقع</li>
+            "
+            ?>
+
         </ul>
       </section>
 
       <section class="space-y-10">
-        <h3 class="text-xl font-semibold ">احصل على أحدث سيرة ذاتية</h3>
+        <h2 class="text-2xl font-semibold ">
+          <?= $isEn ?
+            "
+              Access My Updated CV
+            " :
+            "
+              احصل على أحدث سيرة ذاتية  
+            "
+            ?>
+        </h2>
         <p class="text-lg leading-7">
+          <?= $isEn ?
+            "
+          Get my <strong>latest CV</strong>, <strong>certificates</strong>, and more resources via the
+          following
+          link:
+            " :
+            "
           يمكنك الوصول إلى <strong>السيرة الذاتية المحدثة</strong>، <strong>شهاداتي</strong>، والمزيد عبر
           الرابط
           التالي:
+            "
+            ?>
+
         </p>
         <a href="https://drive.google.com/drive/u/0/folders/14OHQjPXWy4fpqx-qvVO9KVZcPWDCQHkm" target="_blank"
-          class="inline-block bg-main text-white py-2 px-4 rounded-lg hover:bg-gray-700">اعرض الملفات على جوجل
-          درايف</a>
+          class="inline-block bg-main text-white py-2 px-4 rounded-lg hover:bg-gray-700">
+
+          <?= $isEn ?
+            "
+          View Files on Google
+          Drive
+            " :
+            "
+          اعرض الملفات على جوجل
+          درايف
+            "
+            ?>
+        </a>
       </section>
 
       <section>
         <h1 class="text-center text-main text-2xl p-5">
+          <?= $isEn ?
+            "
+          Thanks For Your Time
+            " :
+            "
           شكرا لك على وقتك
+            "
+            ?>
+
         </h1>
       </section>
     </section>
+
   </main>
+
   <!-- Footer -->
-  <footer class="">
-    <div class="bg-main w-full grid it-ce text-white  shadow-[0px_-3px_3px_0px_rgb(0,0,0,0.5)] py-10">
+  <footer class="bg-main w-full grid it-ce text-white  shadow-[0px_-3px_3px_0px_rgb(0,0,0,0.5)] py-10">
+
       <p class="text-center">
         <?= $isEn ? "Designed & Developed & Deployed By" : "تم تصميمه وتطويره واستضافته بواسطة" ?>
         <br class="grid sm:hidden">
-        <?= $isEn ? "Ali Hussein" : "علي حسين" ?>
+        <span class="font-black italic text-2xl">
+          <?= $isEn ? "Ali Hussein" : "علي حسين" ?>
+        </span>
         &copy;
         <script>
           document.write(new Date(Date.now()).getFullYear());
@@ -201,7 +246,7 @@ $contentStyles = "text-justify";
         <br class="grid sm:hidden">
         <?= $isEn ? " All Rights Reserved " : "جميع الحقوق محفوظة " ?>
       </p>
-    </div>
+
   </footer>
 </body>
 
