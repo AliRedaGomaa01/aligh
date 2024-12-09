@@ -86,8 +86,8 @@ $contentStyles = "text-justify";
             </h1>
             <p class="<?= $contentStyles ?> ">
                 <?= $isEn ?
-                    'I am Ali Gomaa Hussein from Egypt. I work as a full-stack web and mobile app developer. (+1000 hours of courses).'
-                    : 'أنا علي جمعة حسين من مصر. أعمل كمطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب وتطبيقات الموبايل ( +1000 ساعة من الكورسات ) .'
+                    'I am Ali Hussein from Egypt. I work as a full-stack web and mobile app developer. (+1000 hours of courses).'
+                    : 'أنا علي حسين من مصر. أعمل كمطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب وتطبيقات الموبايل ( +1000 ساعة من الكورسات ) .'
                     ?>
             </p>
             <p class="<?= $contentStyles ?> text-main">
