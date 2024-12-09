@@ -79,7 +79,7 @@
   </header>
 
   <!-- Main -->
-  <main class="container mx-auto ">
+  <main class="container mx-auto p-5">
     
     <section
       class="grid grid-cols-1 gap-10 mx-auto shadow-[-3px_-3px_3px_0px_rgb(0,0,0,0.5),3px_3px_3px_0px_rgb(0,0,0,0.5)] p-10 leading-8 rounded-xl max-w-[800px] ">
