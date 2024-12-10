@@ -1,36 +1,46 @@
 <!-- request variables -->
 <?php
-  $lang = $_GET['lang'] ?? 'en';
-  $lang = in_array($lang, ['en', 'ar']) ? $lang : 'en';
-  $isEn = $lang == 'en';
+$lang = $_GET['lang'] ?? 'en';
+$lang = in_array($lang, ['en', 'ar']) ? $lang : 'en';
+$isEn = $lang == 'en';
 ?>
 <!DOCTYPE html>
 <html lang="<?= $isEn ? 'en' : 'ar' ?>" dir="<?= $isEn ? 'ltr' : 'rtl' ?>">
 <!-- head -->
 
 <head>
-<title>Ali Hussein - Full-Stack Developer</title>
+  <title>Ali Hussein - Full-Stack Developer</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Ali Hussein, a passionate full-stack web and mobile app developer.">
-  <meta name="keywords" content="Ali Hussein, Full-Stack Developer, Web Development, Mobile Development, aly-h.com, aly-h, Aly Hussein, Developer">
+  <meta name="keywords"
+    content="Ali Hussein, Full-Stack Developer, Web Development, Mobile Development, aly-h.com, aly-h, Aly Hussein, Developer">
   <meta name="robots" content="index, follow">
-  
+
   <!-- Open Graph -->
   <meta property="og:title" content="Ali Hussein - Full-Stack Developer">
   <meta property="og:description" content="Ali Hussein, a passionate full-stack web and mobile app developer.">
   <meta property="og:image" content="https://aly-h.com/logoEn.png">
   <meta property="og:url" content="https://aly-h.com">
-  
+  <meta property="og:url" content="https://aly-h.com" />
+  <meta property="og:site_name" content="Ali Hussein" />
+  <meta property="og:locale" content="en-US" />
+  <meta property="og:type" content="website" />
+
+  <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1" />
+  <!-- <meta name="google-site-verification" content="eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw" /> -->
+  <!-- <meta name="yandex-verification" content="14d2e73487fa6c71" /> -->
+
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Ali Hussein - Full-Stack Developer">
   <meta name="twitter:description" content="Ali Hussein, a passionate full-stack web and mobile app developer.">
   <meta name="twitter:image" content="https://aly-h.com/logoEn.png">
-  
+
   <!-- Canonical -->
   <link rel="canonical" href="https://aly-h.com">
   <link rel="icon" type="image/png" href="./images/<?= $isEn ? 'logoEn' : 'logoAr' ?>.png">
+  <link rel="apple-touch-icon" href="./images/<?= $isEn ? 'logoEn' : 'logoAr' ?>.png"> 
 
   <!-- Tailwind -->
   <script src="./tailwind.js"></script>
@@ -77,7 +87,7 @@
 <body class="min-w-full  min-h-screen flex flex-col items-between gap-[5rem] font-sans text-xl">
   <!-- Header -->
   <header class="">
-    
+
     <div class="bg-main w-full text-white grid grid-cols-1 it-ce shadow-[0px_3px_3px_0px_rgb(0,0,0,0.5)]" dir="rtl">
       <div class="grid it-ce h-[120px] w-[200px]">
         <img src="images/logoEn.png" class="h-[100%] w-[100%] <?= $isEn ? '' : 'hidden' ?>" alt="Logo">
@@ -99,22 +109,22 @@
 
   <!-- Main -->
   <main class="container mx-auto p-5">
-    
+
     <section
       class="grid grid-cols-1 gap-10 mx-auto shadow-[-3px_-3px_3px_0px_rgb(0,0,0,0.5),3px_3px_3px_0px_rgb(0,0,0,0.5)] p-10 leading-8 rounded-xl max-w-[800px] ">
 
       <section class="container bg-main text-white py-6  px-4 mx-auto rounded-lg">
-          <h1 class="text-3xl font-bold text-center">
-            <?= $isEn ?
-              "
+        <h1 class="text-3xl font-bold text-center">
+          <?= $isEn ?
+            "
               Ali Hussein – Full-Stack Developer
               " :
-              "
+            "
               علي حسين – مطور كامل للواجهات الأمامية والخلفية
               "
 
-              ?>
-          </h1>
+            ?>
+        </h1>
       </section>
 
       <section class="space-y-10">
@@ -252,19 +262,19 @@
   <!-- Footer -->
   <footer class="bg-main w-full grid it-ce text-white  shadow-[0px_-3px_3px_0px_rgb(0,0,0,0.5)] py-10">
 
-      <p class="text-center">
-        <?= $isEn ? "Designed & Developed & Deployed By" : "تم تصميمه وتطويره واستضافته بواسطة" ?>
-        <br class="grid sm:hidden">
-        <span class="font-black italic text-2xl">
-          <?= $isEn ? "Ali Hussein" : "علي حسين" ?>
-        </span>
-        &copy;
-        <script>
-          document.write(new Date(Date.now()).getFullYear());
-        </script>
-        <br class="grid sm:hidden">
-        <?= $isEn ? " All Rights Reserved " : "جميع الحقوق محفوظة " ?>
-      </p>
+    <p class="text-center">
+      <?= $isEn ? "Designed & Developed & Deployed By" : "تم تصميمه وتطويره واستضافته بواسطة" ?>
+      <br class="grid sm:hidden">
+      <span class="font-black italic text-2xl">
+        <?= $isEn ? "Ali Hussein" : "علي حسين" ?>
+      </span>
+      &copy;
+      <script>
+        document.write(new Date(Date.now()).getFullYear());
+      </script>
+      <br class="grid sm:hidden">
+      <?= $isEn ? " All Rights Reserved " : "جميع الحقوق محفوظة " ?>
+    </p>
 
   </footer>
 </body>
