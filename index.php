@@ -28,7 +28,7 @@ $isEn = $lang == 'en';
   <meta property="og:type" content="website" />
 
   <meta name="googlebot" content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1" />
-  <!-- <meta name="google-site-verification" content="eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw" /> -->
+  <meta name="google-site-verification" content="p9BgvFqUG9DRMza4vhNQXgC9g5Tt2L5j2VTUXwupzSs" />
   <!-- <meta name="yandex-verification" content="14d2e73487fa6c71" /> -->
 
   <!-- Twitter Cards -->
