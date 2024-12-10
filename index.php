@@ -13,7 +13,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Ali Hussein, a passionate full-stack web and mobile app developer.">
-  <meta name="keywords" content="Ali Hussein, Full-Stack Developer, Web Development, Mobile Development">
+  <meta name="keywords" content="Ali Hussein, Full-Stack Developer, Web Development, Mobile Development, aly-h.com, aly-h, Aly Hussein, Developer">
   <meta name="robots" content="index, follow">
   
   <!-- Open Graph -->
