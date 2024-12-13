@@ -46,6 +46,7 @@ $isEn = $lang == 'en';
   <script src="./tailwind.js"></script>
   <script>
     tailwind.config = {
+      darkMode: false,
       theme: {
         extend: {
           fontFamily: {
