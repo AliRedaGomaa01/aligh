@@ -40,7 +40,7 @@ $isEn = $lang == 'en';
   <!-- Canonical -->
   <link rel="canonical" href="https://aly-h.com">
   <link rel="icon" type="image/png" href="./images/<?= $isEn ? 'logoEn' : 'logoAr' ?>.png">
-  <link rel="apple-touch-icon" href="./images/<?= $isEn ? 'logoEn' : 'logoAr' ?>.png"> 
+  <link rel="apple-touch-icon" href="./images/<?= $isEn ? 'logoEn' : 'logoAr' ?>.png">
 
   <!-- Tailwind -->
   <script src="./tailwind.js"></script>
@@ -161,6 +161,17 @@ $isEn = $lang == 'en';
             حصلت على <strong>درجة البكالوريوس في هندسة الاتصالات والإلكترونيات</strong> عام 2021. كما طورت
           مهاراتي من خلال <strong>+1000 ساعة من الكورسات</strong> في البرمجة وتطوير البرمجيات، بالإضافة إلى حصولي على العديد
           من الشهادات.
+          "
+            ?>
+
+        </p>
+        <p class="text-lg leading-7">
+          <?= $isEn ?
+            "
+            I value my time greatly, so I avoid social media platforms that significantly waste time.
+            " :
+            "
+          أقدّر وقتي كثيرًا، لذا أبتعد عن مواقع التواصل الاجتماعي التي تهدر الوقت بشكل كبير.
           "
             ?>
 
