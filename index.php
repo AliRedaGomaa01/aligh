@@ -197,7 +197,6 @@ $isEn = $lang == 'en';
           <li>Technical Skills</li>
           <li>Projects Portfolio</li>
           <li>Learning & Courses</li>
-          <li>Expected Salary</li>
             " :
             "
           <li>المعلومات الأساسية ومعلومات التواصل</li>
@@ -205,7 +204,6 @@ $isEn = $lang == 'en';
           <li>المهارات التقنية</li>
           <li>المشاريع</li>
           <li>التعلم والكورسات</li>
-          <li>الراتب المتوقع</li>
             "
             ?>
 
