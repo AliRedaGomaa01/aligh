@@ -62,7 +62,7 @@ $isEn = $lang == 'en';
   <style type="text/tailwindcss">
     @layer components {
           .it-ce { @apply justify-items-center items-center; }
-          .link { @apply bg-main text-white  }
+          .link { @apply bg-main text-white  border border-transparent }
           .link:hover { @apply bg-white text-main border border-main  }
         }
         @layer base {
@@ -83,13 +83,13 @@ $isEn = $lang == 'en';
   <!-- Header -->
   <header class="">
 
-    <div class="bg-main w-full p-[4rem] text-white grid grid-cols-1 shadow-[0px_3px_3px_0px_rgb(0,0,0,0.5)]">
+    <div class="bg-main w-full p-[2rem] sm:p-[4rem] text-white grid grid-cols-1 shadow-[0px_3px_3px_0px_rgb(0,0,0,0.5)]">
       <div class="grid grid-cols-2 justify-items-between items-center gap-5">
         <div class="">
-          <img src="images/img.jpg" class=" h-[165px] w-[165px] rounded-full overflow-hidden" alt="Logo">
+          <img src="images/img.jpg" class=" h-[120px] sm:h-[170px] w-[120px] sm:w-[170px] rounded-full overflow-hidden" alt="Logo">
         </div>
-        <div class="text-3xl grid grid-cols-1 gap-5  justify-items-end">
-          <p class="text-center link px-4  py-2 rounded-xl">
+        <div class="text-3xl grid grid-cols-1 gap-3 justify-items-end">
+          <p class="text-center link px-3 py-2 rounded-xl text-[1.3rem] sm:text-[2rem] font-bold">
             <a href="<?= $isEn ? '/?lang=ar' : '/?lang=en' ?>" class=""> <?= $isEn ? "العربية" : "English" ?></a>
           </p>
         </div>
@@ -120,7 +120,7 @@ $isEn = $lang == 'en';
         <p class="">
           <?= $isEn ?
             "
-            I'm Ali Hussein from Egypt
+            I'm Ali Hussein from Egypt.
           " :
             '
             أنا علي حسين من مصر.
