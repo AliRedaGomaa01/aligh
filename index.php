@@ -61,15 +61,9 @@ $isEn = $lang == 'en';
   </script>
   <style type="text/tailwindcss">
     @layer components {
-            .it-ce {
-                @apply justify-items-center items-center;
-            }
-            .active {
-                @apply text-white bg-main;
-            }
-            .not-active {
-                @apply text-main;
-            }
+          .it-ce { @apply justify-items-center items-center; }
+          .link { @apply bg-main text-white  }
+          .link:hover { @apply bg-white text-main border border-main  }
         }
         @layer base {
         *::-webkit-scrollbar {
@@ -89,23 +83,18 @@ $isEn = $lang == 'en';
   <!-- Header -->
   <header class="">
 
-    <div class="bg-main w-full text-white grid grid-cols-1 it-ce shadow-[0px_3px_3px_0px_rgb(0,0,0,0.5)]" dir="rtl">
-      <div class="grid it-ce h-[120px] w-[200px]">
-        <img src="images/logoEn.png" class="h-[100%] w-[100%] <?= $isEn ? '' : 'hidden' ?>" alt="Logo">
-        <img src="images/logoAr.png" class="p-5 h-[100%] w-[100%] <?= $isEn ? 'hidden' : '' ?>" alt="Logo">
+    <div class="bg-main w-full p-[4rem] text-white grid grid-cols-1 shadow-[0px_3px_3px_0px_rgb(0,0,0,0.5)]">
+      <div class="grid grid-cols-2 justify-items-between items-center gap-5">
+        <div class="">
+          <img src="images/img.jpg" class=" h-[165px] w-[165px] rounded-full overflow-hidden" alt="Logo">
+        </div>
+        <div class="text-3xl grid grid-cols-1 gap-5  justify-items-end">
+          <p class="text-center link px-4  py-2 rounded-xl">
+            <a href="<?= $isEn ? '/?lang=ar' : '/?lang=en' ?>" class=""> <?= $isEn ? "العربية" : "English" ?></a>
+          </p>
+        </div>
       </div>
     </div>
-    <div
-      class="bg-white w-full text-white grid grid-cols-1 items-center justify-around shadow-[0px_3px_3px_0px_rgb(0,0,0,0.5)] py-5"
-      dir="rtl">
-      <div class="grid it-ce grid-cols-2">
-        <a href="/?lang=ar"
-          class="  hover:active px-5 py-2 rounded-xl <?= $isEn ? 'not-active' : 'active' ?> ">العربية</a>
-        <a href="/?lang=en"
-          class="  hover:active px-5 py-2 rounded-xl <?= $isEn ? 'active' : 'not-active' ?> ">English</a>
-      </div>
-    </div>
-
   </header>
 
   <!-- Main -->
@@ -118,12 +107,11 @@ $isEn = $lang == 'en';
         <h1 class="text-3xl font-bold text-center">
           <?= $isEn ?
             "
-              Ali Hussein – Full-Stack Developer
-              " :
-            "
-              علي حسين – مطور كامل للواجهات الأمامية والخلفية
-              "
-
+              Welcome ♥
+            " :
+            '
+            مرحبًا ♥
+            '
             ?>
         </h1>
       </section>
@@ -132,46 +120,65 @@ $isEn = $lang == 'en';
         <p class="">
           <?= $isEn ?
             "
-            Welcome! I'm Ali Hussein from Egypt, a passionate full-stack web and mobile app
-          developer.
+            I'm Ali Hussein from Egypt
           " :
             '
-            مرحبًا! أنا علي حسين من مصر، أعمل بشغف كمطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب والموبايل.
+            أنا علي حسين من مصر.
             '
+            ?>
+        </p>
+        <p class="">
+          <?= $isEn ?
+            "I'm a passionate software engineer and full-stack web & mobile app developer with a strong technical background." :
+            ' أعمل بشغف كمهندس برمجيات ومطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب والموبايل بمعرفة تقنية قوية.'
             ?>
         </p>
         <h2 class="text-2xl font-semibold ">
           <?= $isEn ?
-            "
-            About Me
-            " :
-            '
-            نبذة عني
-            '
+            "About Me" :
+            'نبذة عني'
             ?>
         </h2>
         <p class="text-lg leading-7">
           <?= $isEn ?
             "
             I hold a <strong>Bachelor’s degree in Communications and Electronics Engineering</strong> (2021).
-          Over the years, I have honed my skills through <strong>1000+ hours of programming and software development
-            courses</strong>, earning numerous certifications along the way.
             " :
             "
-            حصلت على <strong>درجة البكالوريوس في هندسة الاتصالات والإلكترونيات</strong> عام 2021. كما طورت
-          مهاراتي من خلال <strong>+1000 ساعة من الكورسات</strong> في البرمجة وتطوير البرمجيات، بالإضافة إلى حصولي على العديد
-          من الشهادات.
+            حصلت على <strong>درجة البكالوريوس في هندسة الاتصالات والإلكترونيات</strong> عام 2021.
           "
             ?>
-
         </p>
         <p class="text-lg leading-7">
           <?= $isEn ?
             "
-            I value my time greatly, so I avoid social media platforms that significantly waste time.
+            I also have studied 1,500+ hours of programming and software development courses, earning multiple certifications along the way.
             " :
             "
-          أقدّر وقتي كثيرًا، لذا أبتعد عن مواقع التواصل الاجتماعي التي تهدر الوقت بشكل كبير.
+            أيضا درست ما يزيد عن 
+            <strong>+1500 
+            ساعة من الكورسات</strong>
+            في البرمجة وتطوير البرمجيات، بالإضافة إلى حصولي على العديد من الشهادات.
+          "
+            ?>
+        </p>
+        <p class="text-lg leading-7">
+          <?= $isEn ?
+            " Additionally, I have <strong>professional experience</strong> with software agencies, which is detailed in my CV. " :
+            "
+              أيضا أتمتع <strong>بخبرة احترافية</strong>
+               في عدة شركات برمجية كما هو موضح بالتفصيل في سيرتي الذاتية.
+            "
+            ?>
+        </p>
+        <p class="text-lg leading-7">
+          <?= $isEn ?
+            "
+            I highly value <strong>productivity and efficiency</strong>, so I minimize distractions by avoiding time-consuming social media platforms.
+            " :
+            "
+            أحب <strong>الانتاجية والكفاءة</strong>
+            في العمل . لذلك اقلل من منصات التواصل الاجتماعي  التي تستهلك الكثير من الوقت وتسبب التشتت.
           "
             ?>
 
@@ -224,39 +231,34 @@ $isEn = $lang == 'en';
         <p class="text-lg leading-7">
           <?= $isEn ?
             "
-          Get my <strong>latest CV</strong>, <strong>certificates</strong>, and more resources via the
-          following
-          link:
+          Get my <strong>latest CV</strong>, <strong>certificates</strong>, and more resources using the following link:
             " :
             "
-          يمكنك الوصول إلى <strong>السيرة الذاتية المحدثة</strong>، <strong>شهاداتي</strong>، والمزيد عبر
-          الرابط
-          التالي:
+          يمكنك الوصول إلى 
+          <strong>السيرة الذاتية المحدثة</strong>،
+           <strong>شهاداتي</strong>
+           ، والمزيد عبر الرابط التالي:
             "
             ?>
-
+          <a href="https://drive.google.com/drive/u/0/folders/14OHQjPXWy4fpqx-qvVO9KVZcPWDCQHkm"
+            class="underline hover:text-blue-600" target="_blank">
+            <?= $isEn ?
+              "
+              Google Drive Link
+            " :
+              "
+              رابط جوجل درايف
+            "
+              ?>
+          </a>
         </p>
-        <a href="https://drive.google.com/drive/u/0/folders/14OHQjPXWy4fpqx-qvVO9KVZcPWDCQHkm" target="_blank"
-          class="inline-block bg-main text-white py-2 px-4 rounded-lg hover:bg-gray-700">
-
-          <?= $isEn ?
-            "
-          View Files on Google
-          Drive
-            " :
-            "
-          اعرض الملفات على جوجل
-          درايف
-            "
-            ?>
-        </a>
       </section>
 
       <section>
         <h1 class="text-center text-main text-2xl p-5">
           <?= $isEn ?
             "
-          Thanks For Your Time
+          Thank you For Your Time
             " :
             "
           شكرا لك على وقتك
