@@ -22,7 +22,7 @@
             "
       ?>
     <a href="https://drive.google.com/drive/u/0/folders/14OHQjPXWy4fpqx-qvVO9KVZcPWDCQHkm"
-      class="underline hover:text-blue-600" target="_blank">
+      class="underline text-blue-700 hover:text-blue-500" target="_blank">
       <?= $isEn ?
         "
               Google Drive Link
