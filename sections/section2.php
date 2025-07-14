@@ -11,8 +11,9 @@
   </p>
   <p class="">
     <?= $isEn ?
-      "I'm a passionate software engineer and full-stack web & mobile app developer with a strong technical background." :
-      ' أعمل بشغف كمهندس برمجيات ومطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب والموبايل بمعرفة تقنية قوية.'
+      "I'm a passionate software engineer and full-stack web app developer with a strong technical background and with some knowledge in design, marketing, and mobile app development." :
+      ' أعمل بشغف كمهندس برمجيات ومطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب بمعرفة تقنية قوية. 
+            ولدي أيضًا بعض المعرفة في التصميم والتسويق وتطوير تطبيقات الهواتف المحمولة.'
       ?>
   </p>
   <h2 class="text-2xl font-semibold ">
