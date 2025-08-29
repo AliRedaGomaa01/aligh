@@ -54,16 +54,4 @@
             "
       ?>
   </p>
-  <p class="text-lg leading-7">
-    <?= $isEn ?
-      "
-            I highly value <strong>productivity and efficiency</strong>, so I minimize distractions by avoiding time-consuming social media platforms.
-            " :
-      "
-            أحب <strong>الانتاجية والكفاءة</strong>
-            في العمل . لذلك اقلل من منصات التواصل الاجتماعي  التي تستهلك الكثير من الوقت وتسبب التشتت.
-          "
-      ?>
-
-  </p>
 </section>
