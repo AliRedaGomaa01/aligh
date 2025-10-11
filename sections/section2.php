@@ -11,9 +11,8 @@
   </p>
   <p class="">
     <?= $isEn ?
-      "I'm a passionate software engineer and full-stack web app developer with a strong technical background and with some knowledge in design, marketing, and mobile app development." :
-      ' أعمل بشغف كمهندس برمجيات ومطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب بمعرفة تقنية قوية. 
-            ولدي أيضًا بعض المعرفة في التصميم والتسويق وتطوير تطبيقات الهواتف المحمولة.'
+      "I'm a passionate software engineer and full-stack web app developer with a strong technical background." :
+      ' أعمل بشغف كمهندس برمجيات ومطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب بمعرفة تقنية قوية. '
       ?>
   </p>
   <h2 class="text-2xl font-semibold ">
@@ -25,7 +24,7 @@
   <p class="text-lg leading-7">
     <?= $isEn ?
       "
-            I hold a <strong>Bachelor’s degree in Communications and Electronics Engineering</strong> (2021).
+            I hold a <strong>Bachelor's degree in Communications and Electronics Engineering</strong> (2021).
             " :
       "
             حصلت على <strong>درجة البكالوريوس في هندسة الاتصالات والإلكترونيات</strong> عام 2021.
