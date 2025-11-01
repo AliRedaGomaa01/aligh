@@ -3,15 +3,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Ali Hussein, a passionate full-stack web and mobile app developer.">
 <meta name="keywords"
-  content="Ali Hussein, Full-Stack Developer, Web Development, Mobile Development, aly-h.com, aly-h, Aly Hussein, Developer">
+  content="Ali Hussein, Full-Stack Developer, Web Development, Mobile Development, alyhsn.com, alyhsn, Aly Hussein, Developer">
 <meta name="robots" content="index, follow">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Ali Hussein - Full-Stack Developer">
 <meta property="og:description" content="Ali Hussein, a passionate full-stack web and mobile app developer.">
-<meta property="og:image" content="https://aly-h.com/logoEn.png">
-<meta property="og:url" content="https://aly-h.com">
-<meta property="og:url" content="https://aly-h.com" />
+<meta property="og:image" content="https://alyhsn.com/logoEn.png">
+<meta property="og:url" content="https://alyhsn.com">
+<meta property="og:url" content="https://alyhsn.com" />
 <meta property="og:site_name" content="Ali Hussein" />
 <meta property="og:locale" content="en-US" />
 <meta property="og:type" content="website" />
@@ -24,9 +24,9 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ali Hussein - Full-Stack Developer">
 <meta name="twitter:description" content="Ali Hussein, a passionate full-stack web and mobile app developer.">
-<meta name="twitter:image" content="https://aly-h.com/logoEn.png">
+<meta name="twitter:image" content="https://alyhsn.com/logoEn.png">
 
 <!-- Canonical -->
-<link rel="canonical" href="https://aly-h.com">
+<link rel="canonical" href="https://alyhsn.com">
 <link rel="icon" type="image/png" href="./images/<?= $isEn ? 'logoEn' : 'logoAr' ?>.png">
 <link rel="apple-touch-icon" href="./images/<?= $isEn ? 'logoEn' : 'logoAr' ?>.png">
