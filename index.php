@@ -15,13 +15,13 @@ $isEn = $lang == 'en';
 
 </head>
 
-<body class="min-w-full  min-h-screen flex flex-col items-between gap-[5rem] font-sans text-xl">
+<body class="min-w-full  min-h-screen flex flex-col items-between justify-between gap-[5rem] font-sans text-xl">
   <!-- Header -->
   <?php include "header.php" ?>
 
 
   <!-- Main -->
-  <main class="container mx-auto p-5">
+  <main class="container mx-auto p-5 flex-1">
 
     <section
       class="grid grid-cols-1 gap-10 mx-auto shadow-[-3px_-3px_3px_0px_rgb(0,0,0,0.5),3px_3px_3px_0px_rgb(0,0,0,0.5)] p-10 leading-8 rounded-xl max-w-[800px] ">
