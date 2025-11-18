@@ -1,4 +1,11 @@
-<div class="w-fit mx-auto flex  max-sm:[&_svg]:scale-75 gap-2 sm:gap-6 items-center justify-center mb-5">
+<div class="w-fit mx-auto flex  max-sm:[&_svg]:scale-75 gap-2 sm:gap-6 items-center justify-center mb-2 sm:mb-5">
+  <a href="/videos.php<?= $isEn ? '' : '?lang=ar' ?>" title="videos">
+    <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 640 640">
+      <path fill="currentColor"
+        d="M128 128C92.7 128 64 156.7 64 192L64 448C64 483.3 92.7 512 128 512L384 512C419.3 512 448 483.3 448 448L448 192C448 156.7 419.3 128 384 128L128 128zM496 400L569.5 458.8C573.7 462.2 578.9 464 584.3 464C597.4 464 608 453.4 608 440.3L608 199.7C608 186.6 597.4 176 584.3 176C578.9 176 573.7 177.8 569.5 181.2L496 240L496 400z"
+        />
+    </svg>
+  </a>
   <a href="tel:+201127453361" target="_blank" title="phone">
     <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 640 640">
       <path fill="currentColor"
