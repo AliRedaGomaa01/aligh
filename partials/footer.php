@@ -3,15 +3,15 @@
 
   <p class="text-center">
     <?= $isEn ? "Designed & Developed & Deployed By" : "تم تصميمه وتطويره واستضافته بواسطة" ?>
-    <br class="grid sm:hidden">
+    <br class="grid md:hidden">
     <span class="font-black italic text-2xl">
       <?= $isEn ? "Ali Hussein" : "علي حسين" ?>
     </span>
-    &copy;
+    &copy; 2023 - 
     <script>
       document.write(new Date(Date.now()).getFullYear());
     </script>
-    <br class="grid sm:hidden">
+    <br class="grid md:hidden">
     <?= $isEn ? " All Rights Reserved " : "جميع الحقوق محفوظة " ?>
   </p>
 
