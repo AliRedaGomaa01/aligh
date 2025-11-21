@@ -1,7 +1,7 @@
-<title>Ali Hussein - Full-Stack Developer</title>
+<title><?= $isEn ? 'Ali Hussein - Full-Stack Developer' : 'علي حسين - مبرمج واجهات الويب' ?></title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Ali Hussein, a passionate full-stack web developer.">
+<meta name="description" content="<?= $isEn ? 'Ali Hussein, a passionate full-stack web developer.' : 'علي حسين - مبرمج شغوف بواجهات الويب' ?>">
 <meta name="keywords"
   content="ali, aly, hussein, alyhsn.com, alyhsn, developer, development, web, website, software, programmer, coding, programming, end, stack, software engineer, IT, technology">
 <meta name="robots" content="index, follow">

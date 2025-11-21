@@ -1,5 +1,5 @@
   <!-- Tailwind -->
-  <script src="./tailwind.js"></script>
+  <script src="/tailwind.js"></script>
   <script>
     tailwind.config = {
       darkMode: false,

@@ -1,24 +1,4 @@
-<!-- request variables -->
-<?php
-$lang = $_GET['lang'] ?? 'en';
-$lang = in_array($lang, ['en', 'ar']) ? $lang : 'en';
-$isEn = $lang == 'en';
-?>
-<!DOCTYPE html>
-<html lang="<?= $isEn ? 'en' : 'ar' ?>" dir="<?= $isEn ? 'ltr' : 'rtl' ?>">
-<!-- head -->
-
-<head>
-
-  <?php include "meta.php" ?>
-  <?php include "styles.php" ?>
-
-</head>
-
-<body class="min-w-full  min-h-screen flex flex-col items-between justify-between  gap-[5rem] font-sans text-xl">
-  <!-- Header -->
-  <?php include "header.php" ?>
-
+<?php include "./partials/before-main.php" ?>
 
   <!-- Main -->
   <main class="container mx-auto p-5 grid place-items-center flex-1" >
@@ -30,9 +10,4 @@ $isEn = $lang == 'en';
     </video>
   </main>
 
-  <!-- Footer -->
-  <?php include "footer.php" ?>
-
-</body>
-
-</html>
+<?php include "./partials/after-main.php" ?>
