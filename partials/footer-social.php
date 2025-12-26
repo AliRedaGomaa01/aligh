@@ -1,4 +1,4 @@
-<div class="w-fit mx-auto flex  max-sm:[&_svg]:scale-75 [&>*:hover]:text-blue-200 gap-2 sm:gap-6 items-center justify-center mb-2 sm:mb-5">
+<div class="w-fit mx-auto flex  max-sm:[&_svg]:scale-90  [&>*:hover]:text-blue-200 gap-5 sm:gap-10 items-center justify-center mb-2 sm:mb-5">
   <a href="tel:+201127453361" target="_blank" title="phone">
     <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 640 640">
       <path fill="currentColor"
