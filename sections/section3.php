@@ -16,14 +16,12 @@
           <li>Professional Experience & What Makes Me Stand Out</li>
           <li>Technical Skills</li>
           <li>Projects Portfolio</li>
-          <li>Learning & Courses</li>
             " :
       "
           <li>المعلومات الأساسية ومعلومات التواصل</li>
           <li>خبرة العمل وما يجعلني مميزا عن الآخرين</li>
           <li>المهارات التقنية</li>
           <li>المشاريع</li>
-          <li>التعلم والكورسات</li>
       "
       ?>
 
