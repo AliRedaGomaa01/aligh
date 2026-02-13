@@ -20,7 +20,7 @@
 </main>
 
 <script>
-  var counter = localStorage.getItem('counter') || 0;
+  var counter = +localStorage.getItem('counter') || 0;
   function updateUIAndStore() {
     document.getElementById('counter').innerText = counter;
     localStorage.setItem('counter', counter);
