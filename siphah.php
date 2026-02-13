@@ -30,7 +30,7 @@
     updateUIAndStore()
   }
   function add(num) {
-    counter += num;
+    counter += +num;
     updateUIAndStore()
   }
   function reset() {
