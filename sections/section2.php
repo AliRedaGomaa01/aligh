@@ -15,12 +15,6 @@
       ' أعمل بشغف كمهندس برمجيات ومطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب بمعرفة تقنية قوية. '
       ?>
   </p>
-  <h2 class="text-2xl font-semibold ">
-    <?= $isEn ?
-      "About Me" :
-      'نبذة عني'
-      ?>
-  </h2>
   <p class="text-lg leading-7">
     <?= $isEn ?
       "
@@ -34,12 +28,11 @@
   <p class="text-lg leading-7">
     <?= $isEn ?
       "
-            I also have studied 1,500+ hours of programming and software development courses, earning multiple certifications along the way.
+            I also have studied <strong>thousands of hours</strong> of programming and software development courses, earning multiple certifications along the way.
             " :
       "
-            أيضا درست ما يزيد عن 
-            <strong>+1500 
-            ساعة من الكورسات</strong>
+            أيضا درست  
+            <strong>آلاف الساعات من الكورسات</strong>
             في البرمجة وتطوير البرمجيات، بالإضافة إلى حصولي على العديد من الشهادات.
           "
       ?>

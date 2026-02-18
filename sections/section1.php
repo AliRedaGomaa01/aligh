@@ -2,11 +2,11 @@
   <h1 class="text-3xl font-bold text-center">
     <?= $isEn ?
       "
-              Welcome ♥
+            Summary
             " :
-      '
-            مرحبًا ♥
-            '
+      "
+            نبذة مختصرة
+            "
       ?>
   </h1>
 </section>
