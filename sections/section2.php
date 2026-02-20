@@ -1,4 +1,3 @@
-<section class="space-y-10">
   <p class="">
     <?= $isEn ?
       "
@@ -9,12 +8,14 @@
             '
       ?>
   </p>
+
   <p class="">
     <?= $isEn ?
       "I'm a passionate software engineer and full-stack web app developer with a strong technical background." :
       ' أعمل بشغف كمهندس برمجيات ومطور كامل للواجهات الأمامية والخلفية لتطبيقات الويب بمعرفة تقنية قوية. '
       ?>
   </p>
+
   <p class="text-lg leading-7">
     <?= $isEn ?
       "
@@ -25,6 +26,7 @@
           "
       ?>
   </p>
+  
   <p class="text-lg leading-7">
     <?= $isEn ?
       "
@@ -46,4 +48,3 @@
             "
       ?>
   </p>
-</section>

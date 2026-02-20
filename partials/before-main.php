@@ -15,6 +15,6 @@ $isEn = $lang == 'en';
 
 </head>
 
-<body class="min-w-full  min-h-screen flex flex-col items-between justify-between gap-[5rem] font-sans text-xl">
+<body class="min-w-full  min-h-screen flex flex-col items-between justify-between gap-[2rem] sm:gap-[4rem] font-sans text-xl">
   <!-- Header -->
   <?php include "header.php" ?>

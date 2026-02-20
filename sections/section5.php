@@ -1,13 +1,11 @@
-<section>
-  <h1 class="text-center text-main text-2xl">
-    <?= $isEn ?
-      "
+<h1 class="text-center text-main text-xl sm:text-2xl">
+  <?= $isEn ?
+    "
           Thank you For Your Time
             " :
-      "
+    "
           شكرا لك على وقتك
             "
-      ?>
+    ?>
 
-  </h1>
-</section>
+</h1>
