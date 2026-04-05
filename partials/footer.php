@@ -7,7 +7,7 @@
     <span class="font-black italic text-2xl">
       <?= $isEn ? "Ali Hussein" : "علي حسين" ?>
     </span>
-    &copy; 2023 - 
+    &copy; 
     <script>
       document.write(new Date(Date.now()).getFullYear());
     </script>
