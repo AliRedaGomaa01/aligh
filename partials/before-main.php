@@ -3,6 +3,7 @@
 $lang = $_GET['lang'] ?? 'en';
 $lang = in_array($lang, ['en', 'ar']) ? $lang : 'en';
 $isEn = $lang == 'en';
+$isSiphah = $_SERVER['REQUEST_URI'] == '/siphah.php';
 ?>
 <!DOCTYPE html>
 <html lang="<?= $isEn ? 'en' : 'ar' ?>" dir="<?= $isEn ? 'ltr' : 'rtl' ?>">
@@ -15,6 +16,7 @@ $isEn = $lang == 'en';
 
 </head>
 
-<body class="min-w-full  min-h-screen flex flex-col items-between justify-between gap-[2rem] sm:gap-[4rem] font-sans text-xl">
+<body
+  class="min-w-full  min-h-screen flex flex-col items-between justify-between  <?= $isSiphah ? ' bg-gray-800 ' : ' ' ?>  gap-[2rem] sm:gap-[4rem] font-sans text-xl">
   <!-- Header -->
   <?php include "header.php" ?>
