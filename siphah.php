@@ -4,7 +4,7 @@
 <main class="container flex-1 mx-auto  p-5 ">
   <section class="container mx-auto  grid align-items-stretch justify-items-stretch min-h-screen relative">
     <div
-      class="text:xl md:text-2xl lg:text-3xl bg-gray-900 text-gray-200 rounded-xl shadow-lg grid place-items-center select-none cursor-pointer z-50 p-5 text-center"
+      class="text-base md:text-xl xl:text-2xl bg-gray-900 text-gray-200 rounded-xl shadow-lg grid place-items-center select-none cursor-pointer z-50 p-5 text-center"
       dir="rtl" onclick="add(+1)">
       أعوذ بالله من كل شر - وأسأله من كل خير ،،
       <br>
