@@ -4,7 +4,7 @@
 <main class="container flex-1 mx-auto  p-5 ">
   <section class="container mx-auto  grid align-items-stretch justify-items-stretch min-h-screen relative">
     <div
-      class="text:2xl md:text-4xl lg:text-5xl bg-purple-900 text-gray-200 rounded-xl shadow-lg grid place-items-center select-none cursor-pointer z-50 p-5 text-center"
+      class="text:2xl md:text-4xl lg:text-5xl bg-gray-900 text-gray-200 rounded-xl shadow-lg grid place-items-center select-none cursor-pointer z-50 p-5 text-center"
       dir="rtl" onclick="add(+1)">
       أعوذ بالله من كل شر - وأسأله من كل خير ،، لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل شيء قدير -
       أقررت له بظلمي وتقصيري وضعفي وجهلي ،، واستغفر الله وأتوب إليه - وسبحان الله وبحمده ،، والحمد لله - والله أكبر ،،
