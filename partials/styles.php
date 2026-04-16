@@ -1,6 +1,7 @@
   <!-- Tailwind -->
   <script src="/tailwind.js"></script>
   <script>
+    // v 3.0 
     tailwind.config = {
       darkMode: false,
       theme: {
