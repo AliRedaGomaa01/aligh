@@ -1,7 +1,24 @@
-<?php $sectionClasses = "
+<?php 
+
+// body classes 
+$bodyClasses ="
+      body-bg-color
+        rtl:bg-gradient-to-r ltr:bg-gradient-to-l from-purple7 from-40% to-60% to-gray4 min-w-full
+      font-sizes
+          max-md:ltr:text-[5vw] max-md:rtl:text-[6vw]
+          md:max-2xl:ltr:text-[2.6vw] md:max-2xl:rtl:text-[2.9vw]
+          2xl:ltr:text-[38px] 2xl:rtl:text-[42px]";
+
+// main classes 
+$mainClasses ="grid grid-cols-1 md:grid-cols-2 w-full max-w-[1530px] relative mx-auto";
+
+// section classes
+$sectionClasses = "
       box-borders
-        max-md:border-b-4 
-        max-md:[&:not(:first-child)]:border-t-4 
+        max-sm:border-b-4 
+        max-sm:[&:not(:first-child)]:border-t-4 
+        sm:border-b-[6px] 
+        sm:[&:not(:first-child)]:border-t-[6px] 
         md:border-b-8 
         md:[&:not(:first-child)]:border-t-8 
         md:[&:nth-child(2)]:border-t-0 
@@ -24,10 +41,7 @@
       box-sizes
           w-full box-border
           max-md:h-[66vw] md:h-[32vw] 2xl:h-[480px]
-          p-4 sm:p-8 md:p-6 xl:p-12 m-0
-          max-md:ltr:text-[5vw] max-md:rtl:text-[6vw]
-          md:max-2xl:ltr:text-[2.7vw] md:max-2xl:rtl:text-[3.2vw]
-          2xl:ltr:text-[40px] 2xl:rtl:text-[48px]
+          py-4 px-8 sm:p-8 md:p-6 xl:p-12 m-0
 
       box-layout
         relative
@@ -36,7 +50,7 @@
 
 // Corner Box 
 
-$cornerBoxClasses = "w-3 h-3 absolute bg-current md:hidden z-10";
+$cornerBoxClasses = "w-3 h-2 sm:w-4 sm:h-[10px] absolute bg-current md:hidden z-10";
 
 $cornerBoxPositionClasses = [
   "top-0 left-0",
@@ -49,8 +63,12 @@ $cornerBoxes = array_map(function ($positionClass) use ($cornerBoxClasses) {
   return "<div class='{$cornerBoxClasses} {$positionClass}'></div>";
 }, $cornerBoxPositionClasses);
 
+$middleDecorationBoxClasses = "hidden md:block md:w-7 md:h-7 lg:w-8 lg:h-8 xl:w-10 xl:h-10 absolute top-0 -translate-y-[calc(50%+8px)] scale-150 rtl:left-0   ltr:right-0 z-20 rtl:-translate-x-[calc(50%+8px)]  ltr:translate-x-[calc(50%+8px)]";
+
+$bottomDecorationShapeClasses = "hidden md:block absolute bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[1530px] z-10 md:w-[90px] md:h-[45px] lg:w-[100px] lg:h-[50px] xl:w-[120px] xl:h-[60px] ltr:-scale-x-100";
+
 // lang images 
-$langImageClasses = "w-12 h-12 md:w-[120px] md:h-[60px] absolute top-0 max-md:rtl:left-0 max-md:ltr:right-0 md:right-1/2 md:translate-x-1/2 z-20 bg-blend-multiply hover:scale-150 hover:opacity-90 bg-transparent transition-transform duration-300";
+$langImageClasses = "w-12 h-12 md:w-[90px] md:h-[45px] lg:w-[100px] lg:h-[50px] xl:w-[120px] xl:h-[60px] absolute top-0 max-md:rtl:left-0 max-md:ltr:right-0 md:right-1/2 md:translate-x-1/2 z-20 bg-blend-multiply hover:scale-150 hover:opacity-90 bg-transparent transition-transform duration-300";
 
 $langImageSrces = [
   ["/images2/lang-ar-sm.png",' max-md:rtl:hidden md:hidden '],

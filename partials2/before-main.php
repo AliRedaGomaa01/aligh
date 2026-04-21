@@ -13,6 +13,6 @@ $isEn = $lang == 'en';
   <?php include "meta.php" ?>
   <?php include "styles.php" ?>
   <?php include "./data2/content" . ucfirst($lang) . ".php" ?>
-  <?php include "./data2/sectionClasses.php" ?>
+  <?php include "./data2/cssClasses.php" ?>
 
 </head>
