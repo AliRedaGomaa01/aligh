@@ -3,7 +3,7 @@
 $lang = $_GET['lang'] ?? 'en';
 $lang = in_array($lang, ['en', 'ar']) ? $lang : 'en';
 $isEn = $lang == 'en';
-$isSiphah = $_SERVER['REQUEST_URI'] == '/siphah.php';
+$isSiphah = str_contains($_SERVER['REQUEST_URI'], 'siphah');
 ?>
 <!DOCTYPE html>
 <html lang="<?= $isEn ? 'en' : 'ar' ?>" dir="<?= $isEn ? 'ltr' : 'rtl' ?>">
