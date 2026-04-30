@@ -1,7 +1,7 @@
 <!-- request variables -->
 <?php
-$lang = $_GET['lang'] ?? 'en';
-$lang = in_array($lang, ['en', 'ar']) ? $lang : 'en';
+$lang = $_GET['lang'] ?? 'ar';
+$lang = in_array($lang, ['en', 'ar']) ? $lang : 'ar';
 $isEn = $lang == 'en';
 ?>
 <!DOCTYPE html>
